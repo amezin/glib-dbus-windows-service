@@ -1,0 +1,9 @@
+<node>
+  <interface name='org.gtk.GDBus.TestPeerInterface'>
+    <method name='HelloWorld'>"
+      <arg type='s' name='greeting' direction='in'/>
+      <arg type='s' name='response' direction='out'/>
+    </method>
+    <property name="Verbose" type="b" access="readwrite"/>
+  </interface>
+</node>
